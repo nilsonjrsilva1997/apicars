@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.cars.apirest.models.Car;
+import com.cars.apicars.models.Car;
 
 public interface CarRepository extends JpaRepository<Car, Long> {
     Car findById(long id);
