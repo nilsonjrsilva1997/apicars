@@ -1,4 +1,4 @@
-package com.apicars.cors;
+package com.apicars.apicars.cors;
 
 
 import java.io.IOException;

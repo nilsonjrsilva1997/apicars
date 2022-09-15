@@ -1,9 +1,9 @@
-package com.apicars.validators;
+package com.apicars.apicars.validators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.apicars.models.Car;
+import com.apicars.apicars.models.Car;
 
 
 public class CarValidator {

@@ -1,4 +1,4 @@
-package com.apicars.models;
+package com.apicars.apicars.models;
 
 import java.io.Serializable;
 import java.util.Date;

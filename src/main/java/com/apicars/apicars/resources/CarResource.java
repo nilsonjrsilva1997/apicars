@@ -1,4 +1,4 @@
-package com.apicars.resources;
+package com.apicars.apicars.resources;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.apicars.models.Car;
-import com.apicars.repositories.CarRepository;
-import com.apicars.validators.CarValidator;
+import com.apicars.apicars.models.Car;
+import com.apicars.apicars.repositories.CarRepository;
+import com.apicars.apicars.validators.CarValidator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ import java.util.List;
 @RestController
 public class CarResource {
     @Autowired
-    private static CarRepository carRepository;
+    public CarRepository carRepository;
 
     @GetMapping("/veiculos")
     public List<Car> listCars() {
